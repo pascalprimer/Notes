@@ -1,9 +1,9 @@
 # Fdb version 3
-["xdvipdfmx"] 1565555229 "random-variables-and-inequalities.xdv" "random-variables-and-inequalities.pdf" "random-variables-and-inequalities" 1565555230
-  "random-variables-and-inequalities.xdv" 1565555229 4244 7bf20a9907104f7ad457efdf546b51ee "xelatex"
+["xdvipdfmx"] 1565555749 "random-variables-and-inequalities.xdv" "random-variables-and-inequalities.pdf" "random-variables-and-inequalities" 1565555751
+  "random-variables-and-inequalities.xdv" 1565555749 4244 4f0304edd7f9da8ba6abcc8061cf72cd "xelatex"
   (generated)
   "random-variables-and-inequalities.pdf"
-["xelatex"] 1565555228 "random-variables-and-inequalities.tex" "random-variables-and-inequalities.xdv" "random-variables-and-inequalities" 1565555230
+["xelatex"] 1565555748 "random-variables-and-inequalities.tex" "random-variables-and-inequalities.xdv" "random-variables-and-inequalities" 1565555750
   "d:/Texlive/2017/texmf-dist/fonts/map/fontname/texfonts.map" 1517926967 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "d:/Texlive/2017/texmf-dist/fonts/tfm/adobe/palatino/pplb9e.tfm" 1517927521 5972 0c64c4f5128ecc01ce53c9f2da598834 ""
   "d:/Texlive/2017/texmf-dist/fonts/tfm/adobe/palatino/pplb9t.tfm" 1517927521 2040 c3786843fde023582f6b55ff84d7bc8b ""
@@ -151,11 +151,11 @@
   "d:/Texlive/2017/texmf-dist/tex/latex/url/url.sty" 1517928039 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "d:/Texlive/2017/texmf-dist/tex/latex/xcolor/xcolor.sty" 1517928093 55589 34128738f682d033422ca125f82e5d62 ""
   "d:/Texlive/2017/texmf-var/web2c/xetex/xelatex.fmt" 1517928275 3678299 f9bf4ce55a20e1eb34b097429122d38f ""
-  "random-variables-and-inequalities.aux" 1565555229 984 b8f6a8dfbd312778adb4a712ebdb3a06 ""
-  "random-variables-and-inequalities.out" 1565555229 82 8d6e8084a928f7abc909193fc95afe23 ""
-  "random-variables-and-inequalities.tex" 1565555227 4021 9f3984836aa646d43ada853bc0bc86d7 ""
+  "random-variables-and-inequalities.aux" 1565555749 984 b8f6a8dfbd312778adb4a712ebdb3a06 ""
+  "random-variables-and-inequalities.out" 1565555749 82 8d6e8084a928f7abc909193fc95afe23 ""
+  "random-variables-and-inequalities.tex" 1565555361 4021 9f3984836aa646d43ada853bc0bc86d7 ""
   (generated)
-  "random-variables-and-inequalities.log"
   "random-variables-and-inequalities.out"
   "random-variables-and-inequalities.aux"
+  "random-variables-and-inequalities.log"
   "random-variables-and-inequalities.xdv"
