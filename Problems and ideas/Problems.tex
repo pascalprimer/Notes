@@ -1,0 +1,51 @@
+\documentclass[12pt]{article}
+
+\usepackage{../pascal}
+
+\begin{document}
+
+\section{Learning sparse monomials with additive error}
+\begin{problem}
+  Given distribution $\mathcal{D}$ on $R^p\,,$ learning a monomial
+  $p(x) = c \sum_{k \in S} x_k^{\beta_k} + \eta\,,$ where $c$ is a
+   normalized constant such that $\Ex_{x \sim \mathcal{D}}\left[c^2
+   \sum_{k \in S} x_k^{2\beta_k} \right] = 1\,,$ $\eta$ is some noise,
+   and $\vert S \vert = k\,,$ with sampling complexity poly($k\,,p$) and
+   polynomial running time.
+\end{problem}
+\begin{thoughts}
+  "Attribute-efficient learning of monomials over highly-correlated
+  variables" is about the unnoised version.
+\end{thoughts}
+
+\section{Improving or giving lowerbounds of learning $k$-sparse,
+  $d$-degree polynomials}
+\begin{problem}
+  As the title. Note that this $k$-sparse is based on the orthonormal
+  basis in the given distribution.
+\end{problem}
+\begin{thoughts}
+  "Learning Sparse Polynomial Functions" is about this topic. Can we improve the $\exp(d)$ factor or prove that it is actually essential?
+
+  \textbf{\textit{What is the desired definition of SQ dimension?}} Is
+  the one in "https://arxiv.org/pdf/1611.03473.pdf" useful?
+
+  First, read and try to understand "Gradient Descent for One-Hidden-
+  Layer Neural Networks: Polynomial Convergence and SQ Lower Bounds" and
+  "Statistical Algorithms and a Lower Bound for Detecting Planted
+  Cliques". After that, think about if bounded range is necessary or how
+  to get rid of it. May truncate the too large samples is a method since
+  \textbf{\textit{in all algs the query function have a exp decay}.
+
+
+
+  Can we reduce general queries to dot product queries if approximation
+  permitted?
+
+  Can we follow the proof in "Weakly Learning DNF and Characterizing Statistical Query Learning Using Fourier Analysis" to some extent?
+
+
+\end{thoughts}
+
+
+\end{document}

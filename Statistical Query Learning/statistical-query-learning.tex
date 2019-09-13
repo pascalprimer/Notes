@@ -1,0 +1,35 @@
+\documentclass[12pt]{article}
+
+\usepackage{../pascal}
+\DeclareMathOperator{\WSQD}{SQDim}
+
+\begin{document}
+
+\section{Philosophy}
+\begin{itemize}
+  \item Learning algorithms are to compute parameters while complexity
+    analysis focuses on distinguishing different functions from some
+    concept class.
+\end{itemize}
+
+\section{Weak SQ Dimension}
+\begin{definition}
+  The (weak) SQ dimension of a class of real valued functions
+  $\mathcal{F}$ over some domain $X$ under distribution $\mathcal{D}$
+  , denoted $\WSQD_{\mathcal{F}}^\mathcal{D}$, is the biggest $d$ such
+  that $\mathcal{F}$ contains distinct $f_1\,, \cdots\,, f_d$ with
+  pairwise correlations between $-\frac{1}{d}$ and $\frac{1}{d}\,.$
+  Note that correlation between $f$ and $g$ is defined by
+  \begin{equation}  \nonumber
+    \langle f, g \rangle \triangleq \Ex_{x \sim \mathcal{D}} f(x)g(x)\,.
+  \end{equation}
+\end{definition}
+
+\begin{example}
+  When consider $\mathcal{F}$ as set of vectors on $S^{n - 1}$, inner
+  product as standard inner product and $\mathcal{D}$ as uniform
+  distribution, $\WSQD$ is now polynomial; while $\WSQD$ is $2^n$ for
+  parity functions under uniform distribution.
+\end{example}
+
+\end{document}
